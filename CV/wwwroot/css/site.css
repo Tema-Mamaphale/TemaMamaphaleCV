@@ -1,0 +1,173 @@
+:root {
+    --bg: #f9fafb;
+    --surface: #ffffff;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: rgba(15,23,42,.08);
+    --soft: #f1f5f9;
+    --accent: #111827;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+}
+
+
+
+.site-header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(6px);
+}
+
+.site-main {
+    padding-bottom: 3rem;
+}
+
+.section {
+    padding: 3rem 0;
+}
+
+.bg-soft {
+    background: var(--soft);
+}
+
+
+
+.hero {
+    padding: 4rem 0 2.5rem;
+}
+
+.hero-card {
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 2.5rem;
+    background: var(--surface);
+    box-shadow: 0 10px 30px rgba(0,0,0,.03);
+}
+
+.hero-title {
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: .5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--muted);
+    margin-bottom: .75rem;
+}
+
+.hero-meta {
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+
+
+.section-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    margin-bottom: 1.5rem;
+}
+
+.section-subtitle {
+    font-size: .95rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--muted);
+}
+
+
+
+.card-clean {
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    background: var(--surface);
+    transition: all .25s ease;
+}
+
+    .card-clean:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 30px rgba(0,0,0,.05);
+    }
+
+
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+}
+
+.skill-tag {
+    border: 1px solid rgba(15,23,42,.12);
+    background: #fff;
+    border-radius: 999px;
+    padding: .45rem .9rem;
+    font-size: .85rem;
+    font-weight: 500;
+    color: var(--accent);
+    transition: all .2s ease;
+}
+
+    .skill-tag:hover {
+        background: #111827;
+        color: #fff;
+        border-color: #111827;
+    }
+
+
+.project-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-bottom: .5rem;
+}
+
+.project-description {
+    font-size: .95rem;
+    color: var(--muted);
+    margin-bottom: 1rem;
+}
+
+.project-stack {
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--muted);
+    margin-bottom: 1rem;
+}
+
+
+
+.site-footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 1.5rem 0;
+    font-size: .85rem;
+    color: var(--muted);
+}
+
+
+
+.btn {
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    font-weight: 500;
+}
